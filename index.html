@@ -3,47 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <title>Home - My Company London</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="logo.png">
-        </div>
+        <img class="logo" src="./assets/Logo.png" alt="My Company London logo" />
         <nav>
-            <ul class="main-nav">
-                <li class="main-nav-item">
-                    <a class="main-nav-link active" href="home.html">Home</a>
+            <ul class="main__nav">
+                <li class="main__nav__item--active">
+                    <a class="main__nav__link" href="index.html">Home</a>
                 </li>
                 <li class="main-nav-item">
-                    <a class="main-nav-link" href="services.html">Services</a>
+                    <a class="main__nav__link" href="services.html">Services</a>
                 </li>
-                <li class="main-nav-item">
-                    <a class="main-nav-link" href="contact.html">Contact</a>
+                <li class="main__nav__item">
+                    <a class="main__nav__link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main class="row">
-        <div class="about-column">
-            <h1>About</h1>
+    <main>
+        <section class="card">
+            <h1 class="card__title">About</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum officia velit necessitatibus reprehenderit. Necessitatibus harum quaerat, sit, voluptate voluptatem quia ipsa perspiciatis unde placeat consequuntur quis corporis quos illo?</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat vitae eos? Sed dicta voluptates, dolores aperiam est odit? Possimus deleniti alias autem placeat magnam vitae aliquid magni perferendis quod.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla inventore,</p>
-            <button>Read more</button>
-        </div>
-        <div class="services-column">
-            <h2>Services</h2>
+            <button class="card__button">Read more</button>
+        </section>
+        <section class="card card--grey">
+            <h2 class="card__title">Services</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias necessitatibus natus voluptatem esse sed laboriosam quas assumenda maiores. Dicta, tempore? Maxime numquam veritatis minima odio magnam iusto nulla repudiandae.</p>
-            <button>Read more</button>
-        </div>
-        <div class="contactus-column">
-            <h2>Contact Us</h2>
+            <button class="card__button">Read more</button>
+        </section>
+        <section class="card card--grey">
+            <h2 class="card__title">Contact Us</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias necessitatibus natus voluptatem esse sed laboriosam quas assumenda maiores. Dicta, tempore? Maxime numquam veritatis minima odio magnam iusto nulla repudiandae.</p>
-            <button>Read more</button>
-        </div>
+            <button class="card__button">Read more</button>
+        </section>
     </main>
     <footer></footer>
 </body>
