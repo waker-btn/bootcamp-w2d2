@@ -24,12 +24,6 @@
     object-fit: cover;
 }
 
-
-
-.card__title {
-
-}
-
 .container{
     display: flex;
 }
@@ -76,6 +70,10 @@ th {
 table {
   margin: 20px 0px;
   width: 100%;
+}
+
+.card__table__view{
+  border-left: 1px solid black;
 }
 
 /*buttons*/
