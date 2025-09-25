@@ -96,7 +96,18 @@ input[type="reset"] {
     background-color: black;
     color: var(--colour-pete);
     padding: 10px;
-    min-width: 100px;
+    min-width: 120px;
+    transition: all var(--transition-time);
+}
+
+.card__button:hover{
+    background-color: var(--colour-pete);
+    color: black;
+}
+
+.card__button:active{
+    background-color: var(--colour-white);
+    color: black;
 }
 
 /*form*/
@@ -107,7 +118,7 @@ input[type="reset"] {
 }
 
 input {
-  padding: 50px;
+  padding: 20px;
 }
 
 input::-webkit-input-placeholder { 

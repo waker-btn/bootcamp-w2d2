@@ -6,7 +6,7 @@
     --colour-pete: #eaf11e;
 
     /*transitions*/
-    --transition-time: 0.25s;
+    --transition-time: 1s;
     
     /*borders*/
     --card-border: 3px solid black;
@@ -21,6 +21,18 @@ html{
 
 body {
     background-color: var(--colour-pete);
-    padding: 20px;
+    padding: 20px 50px;
+    font-family: "Open Sans", sans-serif;
 }
 
+@media (min-width: 900px) {
+    body {
+        padding: 20px 100px;
+    }
+}
+
+@media (min-width: 1500px) {
+    body {
+        padding: 20px 200px;
+    }
+}

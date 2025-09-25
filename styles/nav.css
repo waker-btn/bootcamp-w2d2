@@ -1,8 +1,13 @@
+nav {
+    
+}
+
 .main__nav {
   display: flex;
   justify-content: end;
   list-style-type: none;
   padding-left: 75%;
+  margin: 0px;
   
 }
 
@@ -15,6 +20,7 @@
     flex: 1;
     text-align: center;
     padding: 10px;
+    transition: all var(--transition-time);
 }
 
 .main__nav__item--active{
@@ -24,3 +30,15 @@
 .main__nav__link--active{
     color: var(--colour-pete);
 }
+
+.main__nav__item:hover{
+    background-color: black;
+    color: var(--colour-pete);
+}
+
+.main__nav__link:hover{
+    text-decoration: none;
+    color: var(--colour-pete);
+}
+
+
