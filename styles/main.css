@@ -89,6 +89,13 @@ input[type="reset"] {
   max-width: 100px;
 }
 
+.card__table__view button{
+  background-color: var(--colour-grey);
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 .card__button{
     background-color: black;
     color: var(--colour-pete);
