@@ -1,0 +1,9 @@
+header {
+    display:flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 50px 100px;
+    border: 15px solid black;
+}
