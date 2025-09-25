@@ -1,9 +1,17 @@
 header {
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
-    padding: 50px 100px;
-    border: 15px solid black;
+  display: flex;
+  padding: 50px 100px;
+  border: 15px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__image {
+  max-width: 500px;
+  flex: 1;
 }
