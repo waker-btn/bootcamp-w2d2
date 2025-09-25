@@ -1,0 +1,26 @@
+/*variable declarations*/
+:root {
+    /*named colour values*/
+    --colour-white: #ffffff;
+    --colour-grey: #c4c4c4;
+    --colour-pete: #eaf11e;
+
+    /*transitions*/
+    --transition-time: 0.25s;
+    
+    /*borders*/
+    --card-border: 3px solid black;
+
+    /*margins and paddings*/
+    --card-padding: 10px;   
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--colour-pete);
+    padding: 20px;
+}
+
