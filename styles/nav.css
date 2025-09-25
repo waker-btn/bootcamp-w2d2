@@ -3,6 +3,7 @@
   justify-content: end;
   list-style-type: none;
   padding-left: 75%;
+  
 }
 
 .main__nav__link {
@@ -13,8 +14,13 @@
 .main__nav__item{
     flex: 1;
     text-align: center;
+    padding: 10px;
 }
 
 .main__nav__item--active{
     background-color: black;
+}
+
+.main__nav__link--active{
+    color: var(--colour-pete);
 }
