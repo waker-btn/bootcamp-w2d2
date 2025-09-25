@@ -1,0 +1,20 @@
+.main__nav {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  padding-left: 75%;
+}
+
+.main__nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.main__nav__item{
+    flex: 1;
+    text-align: center;
+}
+
+.main__nav__item--active{
+    background-color: black;
+}
