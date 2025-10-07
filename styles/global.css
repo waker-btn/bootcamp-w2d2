@@ -27,12 +27,12 @@ body {
 
 @media (min-width: 900px) {
     body {
-        padding: 20px 100px;
+        padding: 20px 10vw;
     }
 }
 
 @media (min-width: 1500px) {
     body {
-        padding: 20px 200px;
+        padding: 20px 20vw;
     }
 }
